@@ -13,8 +13,8 @@ let globalAccountIndex = 0;
 
 // --- DATABASE & SETTING OWNER ---
 const USER_DB_FILE = 'users.json'; 
-const OWNER_ID = 8216887895; 
-const REQUIRED_CHANNEL = '@agastrastore'; 
+const OWNER_ID = 7713574888; 
+const REQUIRED_CHANNEL = '@peritopia'; 
 
 // --- FUNGSI PEMETAAN NEGARA & BENDERA KOMPLIT ---
 function getCountryDetail(countryCode) {
@@ -160,8 +160,8 @@ bot.start(async (ctx) => {
         });
     }
 
-    const welcomeText = `<b>[ AGASTRA AUTOMATION SYSTEM ]</b>\n\n` +
-        `Selamat datang di sistem otomatisasi Agastra. Bot ini berfungsi sebagai mesin extractor otomatis untuk mendapatkan cookies Netflix (Live) secara massal.\n\n` +
+    const welcomeText = `<b>[ PEROTOPIA AUTOMATION SYSTEM ]</b>\n\n` +
+        `Selamat datang di sistem otomatisasi PEROTOPIA. Bot ini berfungsi sebagai mesin extractor otomatis untuk mendapatkan cookies Netflix (Live) secara massal.\n\n` +
         `<b>📋 Daftar Perintah Sistem</b>\n` +
         `• <code>/hit [jumlah]</code> : Memulai eksekusi. (Contoh: /hit 5)\n` +
         `• <code>/cekantrian</code> : Memantau progres & antrean.\n\n` +
@@ -313,9 +313,9 @@ async function processNextHit() {
                 `<b>Package Status   :</b> <code>Secured & Verified Live</code>\n` +
                 `</blockquote>\n\n` +
                 `<b>English 🇬🇧 :</b>\n` +
-                `<i>Successfully hit cookies, if you want to tidy up the cookie format and check live/dead cookies, please forward this file to the bot @netflixcookieess_bot so that it can be automatically sorted.</i>\n\n` +
+                `<i>Successfully hit cookies, if you want to tidy up the cookie format and check live/dead cookies, please forward this file to the bot @PeritopiaConvert_bot so that it can be automatically sorted.</i>\n\n` +
                 `<b>Indonesian 🇮🇩 :</b>\n` +
-                `<i>Berhasil hit cookies, jika ingin merapihkan format cookies dan cek cookies live/dead silahkan forward file ini ke bot @netflixcookieess_bot agar otomatis di sortir</i>`;
+                `<i>Berhasil hit cookies, jika ingin merapihkan format cookies dan cek cookies live/dead silahkan forward file ini ke bot @PeritopiaConvert_bot agar otomatis di sortir</i>`;
             
             await ctx.reply(summaryLayout, { parse_mode: 'HTML' });
 
