@@ -1,5 +1,3 @@
-gigolo02:masuk123
-gigolo03:masuk123
-gigolo04:masuk123
-gigolo05:masuk123
-gigolo06:masuk123
+pu01:masuk123
+pu02:masuk123
+pu03:masuk123
